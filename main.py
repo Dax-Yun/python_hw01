@@ -1,6 +1,6 @@
 # Simple game in python
 
-print('Hi, welcome to the python game class!')
+print('Hi, welcome to the python game class! this is hw1 branch')
 print('Try to get as many questions correct as possible...')
 
 totalQuestions = 4
