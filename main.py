@@ -46,6 +46,7 @@ if percent >= 50:
     print('Nice! You passed!')
 else:
     print('Better luck next time')
+    print("Haoran Yang")
 
 
 
