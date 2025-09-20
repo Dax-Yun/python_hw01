@@ -6,46 +6,46 @@ print('Try to get as many questions correct as possible...')
 totalQuestions = 4
 score = 0
 
-ans = input('1. What is the name of my class? ')
+ans = input('1. What is my name? ')
 
-if ans.lower() == 'Imagination Lab':
-    print('Correct!')
+if ans.lower() == 'max':
+    print('ur cooking')
     score += 1
 else:
-    print('Incorrect')
+    print('ur autistic')
 
 ans = input('2. What is my age? ')
 
-if ans == "42":
-    print('Correct!')
+if ans == "12":
+    print('oh ur frying')
     score += 1
 else:
-    print('Incorrect')
+    print('u special')
 
 ans = input('3. What is my favourite sport? ')
 
-if ans.lower() == "basketball":
-    print('Correct!')
+if ans.lower() == "soccer":
+    print('oh my goodness u r boiling')
     score += 1
 else:
-    print('Incorrect')
+    print('u have down syndrome')
 
 ans = input('4. What is my favourite food? ')
 
-if ans.lower() == "pizza":
-    print('Correct!')
+if ans.lower() == "pasta":
+    print('yeaaaaahhhh')
     score += 1
 else:
-    print('Incorrect')
+    print('ur selling so hard')
 
-print("Thank you for playing, you got " + str(score) + ' questions correct!')
+print("Thanks for grinding this game " + str(score) + ' questions correct!')
 percent = (score / totalQuestions) * 100
-print("Mark: " + str(int(percent)) + '%')
+print("Max: " + str(int(percent)) + '% hooray u finished')
 
 if percent >= 50:
-    print('Nice! You passed!')
+    print('Great!ur not sped!')
 else:
-    print('Better luck next time')
+    print('U sold')
 
 
 
