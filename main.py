@@ -3,14 +3,14 @@
 print('Hi, welcome to the python game class!')
 print('Try to get as many questions correct as possible...')
 
-totalQuestions = 4
+totalQuestions = 100
 score = 0
 
 ans = input('1. What is my name? ')
 
 if ans.lower() == 'max':
     print('ur cooking')
-    score += 1
+    score += 10
 else:
     print('ur autistic')
 
@@ -18,7 +18,7 @@ ans = input('2. What is my age? ')
 
 if ans == "12":
     print('oh ur frying')
-    score += 1
+    score += 20
 else:
     print('u special')
 
@@ -26,7 +26,7 @@ ans = input('3. What is my favourite sport? ')
 
 if ans.lower() == "soccer":
     print('oh my goodness u r boiling')
-    score += 1
+    score += 30
 else:
     print('u have down syndrome')
 
@@ -34,7 +34,7 @@ ans = input('4. What is my favourite food? ')
 
 if ans.lower() == "pasta":
     print('yeaaaaahhhh')
-    score += 1
+    score += 40
 else:
     print('ur selling so hard')
 
