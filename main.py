@@ -2,6 +2,7 @@
 
 print('Hi, welcome to the python game class!')
 print('Try to get as many questions correct as possible...')
+print('Hello, this is Ethan!')
 
 totalQuestions = 4
 score = 0
